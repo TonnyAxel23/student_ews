@@ -10,7 +10,7 @@ $conn = getDBConnection();
 $total_students = $conn->query("SELECT COUNT(*) as count FROM students")->fetch_assoc()['count'];
 $total_teachers = $conn->query("SELECT COUNT(*) as count FROM teachers")->fetch_assoc()['count'];
 $total_classes = $conn->query("SELECT COUNT(*) as count FROM classes")->fetch_assoc()['count'];
-
+ 
 // Get risk distribution
 $risk_distribution = $conn->query("
     SELECT 
