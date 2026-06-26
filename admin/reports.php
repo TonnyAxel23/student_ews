@@ -5,7 +5,7 @@ require_once '../config/db.php';
 
 $conn = getDBConnection();
 
-// Set default parameters
+// Set default parameters 
 $current_month = date('m');
 $current_term = ceil($current_month / 4);
 $current_year = date('Y');
