@@ -4,7 +4,7 @@ require_once '../includes/header.php';
 require_once '../config/db.php';
 
 $conn = getDBConnection();
-
+ 
 // Handle form submissions
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (isset($_POST['add_subject'])) {
