@@ -1,7 +1,7 @@
             </main>
         </div>
     </div>
-
+ 
     <script>
         // Sidebar toggle
         document.querySelector('.sidebar-toggle').addEventListener('click', function() {
