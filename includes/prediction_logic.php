@@ -2,7 +2,7 @@
 function calculatePerformanceScore($student_id, $term = null, $academic_year = null) {
     require_once '../config/db.php';
     $conn = getDBConnection();
-    
+     
     // Set default term and year if not provided
     if ($term === null) {
         $current_month = date('m');
