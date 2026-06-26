@@ -5,7 +5,7 @@ require_once '../config/db.php';
 require_once '../includes/prediction_logic.php';
 
 $conn = getDBConnection();
-
+ 
 // Get statistics
 $total_students = $conn->query("SELECT COUNT(*) as count FROM students")->fetch_assoc()['count'];
 $total_teachers = $conn->query("SELECT COUNT(*) as count FROM teachers")->fetch_assoc()['count'];
