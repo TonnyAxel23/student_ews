@@ -2,7 +2,7 @@
 session_start();
 require_once '../config/db.php';
 
-$error = '';
+$error = ''; 
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = trim($_POST['username']);
