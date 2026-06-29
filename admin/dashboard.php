@@ -1,4 +1,4 @@
-<?php
+<?php 
 $page_title = "Admin Dashboard";
 require_once '../includes/header.php';
 require_once '../config/db.php';
