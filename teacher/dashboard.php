@@ -1,4 +1,4 @@
-<?php
+<?php 
 $page_title = "Teacher Dashboard";
 require_once '../includes/header.php';
 require_once '../config/db.php';
